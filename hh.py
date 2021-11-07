@@ -34,7 +34,7 @@ def get_vacancies_list(search):
     sorted_skills = {}
     for w in sorted_keys:
         sorted_skills[w] = skills[w]
-    with open('data.json', 'w+') as file:
+    with open(f'data_{search}.json', 'w+') as file:
         json.dump(sorted_skills, file, ensure_ascii=False, indent=4, sort_keys=True)
 
 
