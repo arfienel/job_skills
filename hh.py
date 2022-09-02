@@ -5,7 +5,6 @@ import re
 import asyncio
 from datetime import datetime
 from aiohttp import ClientSession
-from bs4 import *
 import requests
 
 
